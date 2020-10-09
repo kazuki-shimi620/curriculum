@@ -1,0 +1,91 @@
+@media screen and (max-width: 767px) {
+
+    .wrapper {
+        width: 300px;
+    }
+
+    /* 左側 */
+    .left { 
+        width: 100px;
+    }
+    /* 右側 */
+    .right { 
+        width: 200px; 
+    }
+    /* 真ん中 ↑*/
+    
+    .center {
+        width: 125px;
+    }
+    .center-top {
+        height: 50px;
+    }
+    
+    
+    .right-right {
+        float: right;
+        width: 75px;
+        height: 150px;
+        background-color: #ff9e6d;
+    }
+    /* 真ん中↓ */
+    .right-lower {
+        width: 100%;
+        height: 100px;
+        background-color: #8c2727;
+    }
+
+}
+
+@media screen and (max-width: 479px) {
+
+    
+    .wrapper {
+        width: 150px; 
+        margin: 0 auto; 
+    /* wrapperクラスを中央寄せ */
+    }
+    .contents {
+        float: none;
+    }
+    
+    .left { 
+        float: none;
+        width: 150px;
+        height: 250px;
+        background-color: #80bfa8;
+    }
+    /* 右側 */
+    .right { 
+        width: 150px; 
+        height: 400px;
+    }
+    /* 真ん中 ↑*/
+
+    .top {
+        float: none;
+        height: 300px;
+    }
+    
+    .right-right {
+        width: 150px;
+    }
+
+    .center-top {
+        width: 150px;
+    }
+    .center-lower {
+        width: 150px;   
+    }
+
+    .right-lower {
+        width: 150px;
+    }
+    /* 真ん中↓ */
+    /* 右側終了 */
+    
+    .footer {
+        clear: both;
+    }
+
+}
