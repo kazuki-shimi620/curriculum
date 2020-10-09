@@ -1,0 +1,103 @@
+body {
+    min-height: 100%; 
+    height: 100%;
+}
+.clearfix::after { 
+    content: ''; 
+    display: block; 
+    clear: both;
+}
+.wrapper {
+    width: 400px; 
+    margin: 0 auto; 
+/* wrapperクラスを中央寄せ */
+}
+
+.header { 
+    height: 100px; 
+    background-color: #141f40;
+}
+
+.header-box {
+    float: right;
+    height: 60px;
+    width: 160px;
+    margin: 20px;
+    background-color: white;
+}
+
+.box-left {
+    float: left;
+    height: 40px;
+    width: 40px;
+    margin: 10px 0 10px 10px;
+    background-color: #a9004b;
+}
+
+.box-right {
+    float: right;
+    height: 40px;
+    width: 40px;
+    margin: 10px 10px 10px 0;
+    background-color: #a9004b;
+}
+
+.box-center {
+    float: right;
+    height: 40px;
+    width: 40px;
+    margin: 10px 10px 10px 10px;
+    background-color: #a9004b;
+}
+
+.contents { 
+    height: 250px;
+}
+/* 左側 */
+.left { 
+    float: left;
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+}
+/* 右側 */
+.right { 
+    float: right; 
+    width: 250px; 
+    height: 250px;
+    background-color: #8c2727;
+}
+
+.box-top {
+    margin: 40px 60px 10px 40px;
+    height: 50px;
+    width: 150px;
+    background-color: white;
+}
+
+.box-middle {
+    margin: 0 60px 10px 40px;
+    height: 50px;
+    width: 150px;
+    background-color: white;
+}
+
+.box-lower {
+    margin: 10px 60px 40px 40px;
+    height: 50px;
+    width: 150px;
+    background-color: white;
+}
+.inner-box-top {
+    display:inline-block;
+    margin: 5px;
+    height: 40px;
+    width: 140px;
+    background-color: #ff863f;
+}
+
+/* 右側終了 */
+.footer {
+    height: 100px;
+    background-color: #d98d30;
+}

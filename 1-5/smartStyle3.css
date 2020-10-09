@@ -1,0 +1,74 @@
+@media screen and (max-width: 479px) {
+
+    
+    .wrapper {
+        width: 200px; 
+    /* wrapperクラスを中央寄せ */
+    }
+
+    .header { 
+        height: 200px; 
+    }
+
+    .contents {
+        float: none;
+        height: 480px;
+    }
+
+    .header-box {
+        display:inline-block;
+        float: none;
+        height: 160px;
+        width: 60px;
+        margin: 20px 70px 20px 70px;
+    }
+    
+    .box-left {
+        float: none;
+        margin: 10px 0 10px 10px;
+    }
+    
+    .box-right {
+        float: none;
+        margin: 10px 10px 10px 10px;
+    }
+    
+    .box-center {
+        float: none;
+        margin: 10px 10px 10px 10px;
+    }
+    
+    .left { 
+        float: none;
+        width: 100%;
+        height: 250px;
+    }
+    /* 右側 */
+    .right { 
+        width: 200px; 
+        height: 230px;
+    }
+    
+    .box-top {
+        margin: 20px 30px 20px 30px;
+        width: 140px;
+    }
+    
+    .box-middle {
+        margin: 20px 30px 20px 30px;
+        width: 140px;
+    }
+    
+    .box-lower {
+        margin: 20px 30px 20px 30px;
+        width: 140px;
+    }
+    .inner-box-top {
+        width: 130px;
+    }
+    
+    .footer {
+        clear: both;
+    }
+
+}
